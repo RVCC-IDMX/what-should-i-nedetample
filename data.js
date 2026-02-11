@@ -10,24 +10,22 @@
 
 const data = {
   // Describe your domain
-  domain: "Your Domain Here",
-  description: "A brief description of what you're recommending",
+  domain: "What to Listen To",
+  description: "What songs to listen to based on the vibe and activity.",
 
   // Your options array - aim for 15-25 items
   options: [
-    // Example structure - replace with your own!
     {
-      title: "Example Item 1",
-      category: "category-a",
-      mood: "relaxed",
-      timeMinutes: 30,
-      // Add more properties relevant to your domain
+      title: "The World is Yours - Nas",
+      activity: "workout",
+      vibe: "focused",
+      duration: 290, // duration in seconds (4:50)
     },
     {
-      title: "Example Item 2",
-      category: "category-b",
-      mood: "energetic",
-      timeMinutes: 60,
+      title: "Us and Them - Pink Floyd",
+      activity: "sleeping",
+      vibe: "relaxing",
+      duration: 472, // duration in seconds (7:52)
     },
     // Add more options...
   ],
