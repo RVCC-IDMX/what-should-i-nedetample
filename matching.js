@@ -11,23 +11,55 @@
  */
 
 // ============================================================
-// EXAMPLE FUNCTIONS - Replace these with your own!
+// YOUR FUNCTIONS GO HERE
 // ============================================================
 
 /**
- * Checks if an item matches the desired mood
+ * Checks if an item matches the desired vibe
  * @param {Object} item - An item from your data
- * @param {string} desiredMood - The mood the user wants
- * @returns {boolean} - True if the item matches the mood
+ * @param {string} desiredVibe - The vibe the user wants
+ * @returns {boolean} - True if the item matches the vibe
  */
-function matchesMood(item, desiredMood) {
-  // If no mood preference, everything matches
-  if (!desiredMood) {
+function matchesVibe(item, desiredVibe) {
+  // If no vibe preference, everything matches
+  if (!desiredVibe) {
     return true;
   }
 
-  // Check if the item's mood matches the desired mood
-  return item.mood === desiredMood;
+  // Check if the item's vibe matches the desired vibe
+  return item.vibe === desiredVibe;
+}
+
+/**
+ * Checks if an item matches the desired activity
+ * @param {Object} item - An item from your data
+ * @param {string} desiredActivity - The activity the user wants
+ * @returns {boolean} - True if the item matches the activity
+ */
+function matchesActivity(item, desiredActivity) {
+  // If no activity preference, everything matches
+  if (!desiredActivity) {
+    return true;
+  }
+
+  // Check if the item's activity matches the desired activity
+  return item.activity === desiredActivity;
+}
+
+/**
+ * Checks if an item matches the desired genre
+ * @param {Object} item - An item from your data
+ * @param {string} desiredGenre - The genre the user wants
+ * @returns {boolean} - True if the item matches the genre
+ */
+function matchesGenre(item, desiredGenre) {
+  // If no genre preference, everything matches
+  if (!desiredGenre) {
+    return true;
+  }
+
+  // Check if the item's genre matches the desired genre
+  return item.genre === desiredGenre;
 }
 
 /**
@@ -43,7 +75,7 @@ function fitsTimeAvailable(item, availableMinutes) {
   }
 
   // Check if item's duration is within available time
-  return item.timeMinutes <= availableMinutes;
+  return item.duration <= availableMinutes;
 }
 
 /**
@@ -53,11 +85,11 @@ function fitsTimeAvailable(item, availableMinutes) {
  * @returns {boolean} - True if item matches ALL criteria
  */
 function meetsAllCriteria(item, preferences) {
-  // Use && to combine multiple checks
   return (
-    matchesMood(item, preferences.mood) &&
-    fitsTimeAvailable(item, preferences.time)
-    // Add more checks here as needed
+    matchesVibe(item, preferences.vibe) &&
+    fitsTimeAvailable(item, preferences.duration) &&
+    matchesActivity(item, preferences.activity) &&
+    matchesGenre(item, preferences.genre)
   );
 }
 
@@ -67,20 +99,15 @@ function meetsAllCriteria(item, preferences) {
  * @returns {string} - A recommendation message
  */
 function getMatchMessage(matchScore) {
-  if (matchScore === 3) {
+  if (matchScore === 4) {
     return "Perfect match!";
+  } else if (matchScore === 3) {
+    return "Great match!";
   } else if (matchScore === 2) {
-    return "Great option";
+    return "Good option!";
   } else if (matchScore === 1) {
-    return "Worth considering";
+    return "Worth considering!";
   } else {
     return "Might work";
   }
 }
-
-// ============================================================
-// YOUR FUNCTIONS GO HERE
-// ============================================================
-
-// TODO: Write your own matching functions for your domain
-// Remember: You need at least 4 functions!

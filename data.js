@@ -13,7 +13,6 @@ const data = {
   domain: "What to Listen To",
   description: "What songs to listen to based on the vibe and activity.",
 
-  // Your options array - aim for 15-25 items
   options: [
     {
       title: "The World is Yours - Nas",
@@ -120,6 +119,20 @@ const data = {
       genre: "rock",
       duration: 257, // duration in seconds (4:17)
     },
+    {
+      title: "Happy - Pharrell Williams",
+      activity: "party",
+      vibe: "joyful",
+      genre: "pop",
+      duration: 200, // duration in seconds (3:20)
+    },
+    {
+      title: "Stairway to Heaven - Led Zeppelin",
+      activity: "driving",
+      vibe: "epic",
+      genre: "rock",
+      duration: 482, // duration in seconds (8:02)
+    }
   ],
 };
 
