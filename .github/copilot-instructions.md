@@ -4,11 +4,11 @@ Instructions for GitHub Copilot when working on this project.
 
 ## Project context
 
-This is a "What should I...?" recommendation tool.
+This is a "What should I listen to?" recommendation tool.
 
-**Domain:** [Your domain here - e.g., movies, restaurants, games]
+**Domain:** Music
 
-**Purpose:** Help users find recommendations based on their preferences.
+**Purpose:** Help users find song recommendations based on their preferences.
 
 ## Code style
 
@@ -23,13 +23,14 @@ The data lives in `data.js` as a JavaScript object:
 
 ```javascript
 const data = {
-  domain: "Your domain",
+  domain: "Music",
   description: "What this recommender does",
   options: [
     // Array of items to recommend
   ],
 };
 ```
+Each object is going to have the following properties: activity, vibe, genre, duration (in seconds), and title.
 
 ## Matching functions
 

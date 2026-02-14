@@ -4,9 +4,9 @@ Rename this file to `ai-collaboration-summary.md` before submitting.
 
 ## Project overview
 
-**Domain:** [Your chosen domain]
+**Domain:** Music
 
-**AI tools used:** [e.g., GitHub Copilot, Claude, ChatGPT]
+**AI tools used:** GitHub, Copilot
 
 ---
 
@@ -14,11 +14,11 @@ Rename this file to `ai-collaboration-summary.md` before submitting.
 
 ### What I asked AI to help with
 
-[Describe the prompts you used to generate or refine your data]
+I asked AI about what categories I could use for songs and had it generate me 15 song examples.
 
 ### What I verified or changed
 
-[List any corrections you made to AI-generated data]
+I had to correct AI's guesses for how many seconds long the songs were, and I also changed the activities it assigned to songs because I didn't agree with all of them.
 
 ---
 
@@ -32,23 +32,22 @@ Rename this file to `ai-collaboration-summary.md` before submitting.
 
 ### Code I had to fix or adjust
 
-[Describe any issues with AI-generated code and how you fixed them]
-
+I had no issues I had to fix.
 ---
 
 ## Reflection
 
 ### What worked well
 
-[Describe effective prompts or AI interactions]
+I found that being direct and detailed with what exactly I wanted the AI to do worked well. This way it would make as little errors as possible, especially when generating code.
 
 ### What was challenging
 
-[Describe difficulties with AI or where you had to work independently]
+I had to work more independentyl when filling in the categories for the songs. Since AI doesn't think like me, a lot of what it generated was not what I had in mind, so I had to change a lot of them.
 
 ### What I learned
 
-[Key takeaways about working with AI on code]
+I learned more about whwat a good prompt for AI looks like and when to use it if I'm confused versus when to figure something out on my own.
 
 ---
 
@@ -56,7 +55,7 @@ Rename this file to `ai-collaboration-summary.md` before submitting.
 
 | Task              | Approximate time |
 | ----------------- | ---------------- |
-| Data design       | [time]           |
-| Writing functions | [time]           |
-| Connecting UI     | [time]           |
-| Testing/debugging | [time]           |
+| Data design       | [30]           |
+| Writing functions | [20]           |
+| Connecting UI     | [45]           |
+| Testing/debugging | [20]           |

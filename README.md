@@ -4,11 +4,11 @@ A personalized recommendation tool built with JavaScript.
 
 ## About this project
 
-**Your domain:** [Replace with your chosen domain]
+**Your domain:** Music
 
-**Your question:** What should I [watch/eat/play/etc.]?
+**Your question:** What should I listen to?
 
-**Description:** [Describe what your recommendation tool helps users decide]
+**Description:** The reccomendation tool helps users decide what they should listen to depending on what they're doing, how they're feeling, what genre they'd like, and how long they have to listen to a song.
 
 ## How it works
 
@@ -45,3 +45,6 @@ This project encourages AI-assisted development. Document your AI usage in `ai-c
 ## License
 
 MIT License (Cynthia Teeters)
+
+## Live URL
+http://127.0.0.1:5500/index.html
