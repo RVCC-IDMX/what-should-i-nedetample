@@ -75,7 +75,7 @@ function fitsTimeAvailable(item, availableMinutes) {
   }
 
   // Check if item's duration is within available time
-  return item.duration <= availableMinutes;
+  return item.duration <= availableMinutes * 60; // convert minutes to seconds
 }
 
 /**
@@ -95,7 +95,7 @@ function meetsAllCriteria(item, preferences) {
 
 /**
  * Returns a message based on how well an item matches
- * @param {number} matchScore - How many criteria matched (0-3)
+ * @param {number} matchScore - How many criteria matched (0-4)
  * @returns {string} - A recommendation message
  */
 function getMatchMessage(matchScore) {

@@ -18,68 +18,68 @@ const data = {
       title: "The World is Yours - Nas",
       activity: "workout",
       vibe: "focused",
-      genre: "hip-hop",
+      genre: "rap",
       duration: 290, // duration in seconds (4:50)
     },
     {
       title: "Us and Them - Pink Floyd",
       activity: "sleeping",
       vibe: "chill",
-      genre: "progressive rock",
+      genre: "rock",
       duration: 472, // duration in seconds (7:52)
     },
     {
       title: "Midnight City - M83",
       activity: "driving",
-      vibe: "energized",
-      genre: "synth-pop",
+      vibe: "hyped",
+      genre: "pop",
       duration: 244, // duration in seconds (4:04)
     },
     {
       title: "Sunflower - Rex Orange County",
       activity: "studying",
       vibe: "chill",
-      genre: "indie pop",
+      genre: "pop",
       duration: 252, // duration in seconds (4:12)
     },
     {
       title: "Titanium - David Guetta",
       activity: "workout",
       vibe: "hyped",
-      genre: "dance",
+      genre: "pop",
       duration: 245, // duration in seconds (4:05)
     },
     {
       title: "Rivers and Roads - The Head and the Heart",
       activity: "driving",
-      vibe: "nostalgic",
-      genre: "folk rock",
+      vibe: "chill",
+      genre: "rock",
       duration: 273, // duration in seconds (4:33)
     },
     {
       title: "Get Lucky - Daft Punk",
       activity: "party",
       vibe: "upbeat",
-      genre: "funk",
+      genre: "pop",
       duration: 369, // duration in seconds (6:09)
     },
     {
       title: "Clair de Lune - Debussy",
-      activity: "reading",
-      vibe: "peaceful",
+      activity: "studying",
+      vibe: "chill",
       genre: "classical",
       duration: 300, // duration in seconds (5:00)
     },
     {
       title: "Lovely Day - Bill Withers",
-      activity: "cleaning",
-      vibe: "positive",
-      genre: "soul",
+      activity: "party",
+      vibe: "upbeat",
+      genre: "rock",
       duration: 255, // duration in seconds (4:15)
     },
     {
       title: "Blinding Lights - The Weeknd",
-      activity: "driving",
+      activity: "party",
       vibe: "hyped",
       genre: "pop",
       duration: 200, // duration in seconds (3:20)
@@ -87,22 +87,22 @@ const data = {
     {
       title: "Holocene - Bon Iver",
       activity: "relaxing",
-      vibe: "reflective",
-      genre: "indie folk",
+      vibe: "chill",
+      genre: "indie",
       duration: 339, // duration in seconds (5:39)
     },
     {
       title: "Lose Yourself - Eminem",
       activity: "workout",
-      vibe: "intense",
-      genre: "hip-hop",
+      vibe: "hyped",
+      genre: "rap",
       duration: 326, // duration in seconds (5:26)
     },
     {
       title: "Ocean Eyes - Billie Eilish",
       activity: "relaxing",
-      vibe: "dreamy",
-      genre: "alternative pop",
+      vibe: "chill",
+      genre: "pop",
       duration: 200, // duration in seconds (3:20)
     },
     {
@@ -115,21 +115,21 @@ const data = {
     {
       title: "Dreams - Fleetwood Mac",
       activity: "driving",
-      vibe: "laid-back",
+      vibe: "chill",
       genre: "rock",
       duration: 257, // duration in seconds (4:17)
     },
     {
       title: "Happy - Pharrell Williams",
       activity: "party",
-      vibe: "joyful",
+      vibe: "upbeat",
       genre: "pop",
       duration: 200, // duration in seconds (3:20)
     },
     {
       title: "Stairway to Heaven - Led Zeppelin",
       activity: "driving",
-      vibe: "epic",
+      vibe: "hyped",
       genre: "rock",
       duration: 482, // duration in seconds (8:02)
     }

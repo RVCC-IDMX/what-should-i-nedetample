@@ -19,14 +19,14 @@ form.addEventListener("submit", function (event) {
 
   // Get user preferences from the form
   const preferences = {
-    mood: document.getElementById("mood").value,
-    time: document.getElementById("time").value,
-    category: document.getElementById("category").value,
+    vibe: document.getElementById("vibe").value,
+    duration: document.getElementById("duration").value,
+    activity: document.getElementById("activity").value,
   };
 
   // Convert time to a number (it comes as a string from the form)
-  if (preferences.time) {
-    preferences.time = Number(preferences.time);
+  if (preferences.duration) {
+    preferences.duration = Number(preferences.duration);
   }
 
   // Find matching recommendations
@@ -98,9 +98,10 @@ function createRecommendationCard(item) {
   // instead, or a sanitization library. We'll learn more about this in later weeks!
   card.innerHTML = `
     <h3>${item.title}</h3>
-    <p>Category: ${item.category}</p>
-    <p>Mood: ${item.mood}</p>
-    <p>Time: ${item.timeMinutes} minutes</p>
+    <p>Activity: ${item.activity}</p>
+    <p>Vibe: ${item.vibe}</p>
+    <p>Genre: ${item.genre}</p>
+    <p>Time: ${item.duration} seconds</p>
   `;
 
   return card;
