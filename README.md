@@ -47,4 +47,4 @@ This project encourages AI-assisted development. Document your AI usage in `ai-c
 MIT License (Cynthia Teeters)
 
 ## Live URL
-http://127.0.0.1:5500/index.html
+https://whatshouldilistent0.netlify.app/ 
